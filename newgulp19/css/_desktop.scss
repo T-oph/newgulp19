@@ -1,0 +1,26 @@
+ 
+    @media (min-width: 992px) {
+        header {
+          border-bottom: 10px solid #d98555;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          padding:20px;
+        }
+          nav .logo img {
+            max-width: 200px;
+            display: flex;
+            flex-flow:row wrap;
+            justify-content: left;
+            padding-top:20px;
+          }
+          nav ul {
+            @include spacing(0, 0);
+            list-style-type: none;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: right;
+            align-items: right;
+            padding-bottom: 10px;
+          }
+        }
